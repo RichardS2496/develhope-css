@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(43, 56, 77);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container {
+  width: 200px;
+  margin: 100px auto;
+}
+
+#dropdown button {
+  background: #3faf82;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 2px;
+}
+
+#dropdown button span {
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 20%;
+  margin: 5px auto;
+  height: 2px;
+}
+
+#x button {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: #3faf82;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 2px;
+}
+
+#x button span {
+  background-color: white;
+  position: absolute;
+  height: 2px;
+  border-radius: 5px;
+  width: 20%;
+}
+
+#x button .first-line {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#x button .second-line {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
